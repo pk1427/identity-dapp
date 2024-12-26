@@ -1,7 +1,7 @@
 // import Navbar from "@/components/ui/navbar/navbar";
 import React from "react";
 import HeroSection from "./hero-section";
-import Section from "./sections";
+// import Section from "./sections";
 import Navbar from "@/components/navbar/navbar";
 
 const LandingPage = () => {
@@ -9,7 +9,7 @@ const LandingPage = () => {
     <div>
       <Navbar/>
       <HeroSection/>
-      <Section/>
+      {/* <Section/> */}
     </div>
   );
 };
