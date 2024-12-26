@@ -15,6 +15,7 @@ import { useState, useEffect } from "react";
 import {
   PiArrowRight,
   PiBookOpenTextLight,
+  PiDivideBold,
   PiFileThin,
   PiSparkleLight,
   PiTargetLight,
@@ -65,7 +66,7 @@ const Section = () => {
         <span>Verify any Identity</span>
       </div>
 
-      <p
+      <div
         className="
             text-2xl
             pt-4
@@ -84,7 +85,7 @@ const Section = () => {
             />
           </FormControl>
         </FormItem>
-      </p>
+      </div>
 
       <div className="flex gap-4 pt-6 items-center justify-center">
         <Button
