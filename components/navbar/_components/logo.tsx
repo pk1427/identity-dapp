@@ -5,7 +5,7 @@ const Logo = () => {
     <>
       <Link href={"/"}>
         <span className="ml-3 mr-2 text-xl font-bold">
-          Identi<span className="text-sky-600">Fi</span>
+          Identify<span className="text-sky-600">Me</span>
         </span>
       </Link>
     </>

@@ -19,67 +19,67 @@ import {
   IconShare,
 } from "@tabler/icons-react";
 
-const tabs = [
-  {
-    icon: (
-      <IconIdBadge2 className="w-8 h-8 mr-2 text-red-600 bg-red-100 p-1 rounded-md" />
-    ),
-    name: "Create DID",
-    description: "Get your DID on the blockchain.",
-    more: (
-      <div className="text-red-600 flex items-center">
-        Learn more <PiArrowRight className="ml-1 text-sm" />
-      </div>
-    ),
-    image: "/assets/PlantDoodle.svg",
-  },
-  {
-    icon: (
-      <IconShare className="w-8 h-8 mr-2 text-purple-600 bg-purple-100 p-1 rounded-md" />
-    ),
-    name: "Share DID",
-    description: "Create ones, share and use everywhere ",
-    more: (
-      <div className="text-purple-600 flex items-center">
-        Learn more <PiArrowRight className="ml-1 text-sm" />
-      </div>
-    ),
-    image: "/assets/GroovyDoodle.svg",
-  },
-  {
-    icon: (
-      <IconLockSquareRounded className="w-8 h-8 mr-2 text-blue-600 bg-blue-100 p-1 rounded-md" />
-    ),
-    name: "Privacy ",
-    description: "Control who sees your information",
-    more: (
-      <div className="text-blue-600 flex items-center">
-        Learn more <PiArrowRight className="ml-1 text-sm" />
-      </div>
-    ),
+// const tabs = [
+//   {
+//     icon: (
+//       <IconIdBadge2 className="w-8 h-8 mr-2 text-red-600 bg-red-100 p-1 rounded-md" />
+//     ),
+//     name: "Create DID",
+//     description: "Get your DID on the blockchain.",
+//     more: (
+//       <div className="text-red-600 flex items-center">
+//         Learn more <PiArrowRight className="ml-1 text-sm" />
+//       </div>
+//     ),
+//     image: "/assets/PlantDoodle.svg",
+//   },
+//   {
+//     icon: (
+//       <IconShare className="w-8 h-8 mr-2 text-purple-600 bg-purple-100 p-1 rounded-md" />
+//     ),
+//     name: "Share DID",
+//     description: "Create ones, share and use everywhere ",
+//     more: (
+//       <div className="text-purple-600 flex items-center">
+//         Learn more <PiArrowRight className="ml-1 text-sm" />
+//       </div>
+//     ),
+//     image: "/assets/GroovyDoodle.svg",
+//   },
+//   {
+//     icon: (
+//       <IconLockSquareRounded className="w-8 h-8 mr-2 text-blue-600 bg-blue-100 p-1 rounded-md" />
+//     ),
+//     name: "Privacy ",
+//     description: "Control who sees your information",
+//     more: (
+//       <div className="text-blue-600 flex items-center">
+//         Learn more <PiArrowRight className="ml-1 text-sm" />
+//       </div>
+//     ),
 
-    image: "/assets/CoffeeDoddle.svg",
-  },
-  {
-    icon: (
-      <IconBriefcase className="w-8 h-8 mr-2 text-yellow-600 bg-yellow-100 p-1 rounded-md" />
-    ),
-    name: "Find Jobs",
-    description: "Discover developer opportunities.",
-    more: (
-      <div className="text-yellow-600 flex items-center">
-        Learn more <PiArrowRight className="ml-1 text-sm" />
-      </div>
-    ),
+//     image: "/assets/CoffeeDoddle.svg",
+//   },
+//   {
+//     icon: (
+//       <IconBriefcase className="w-8 h-8 mr-2 text-yellow-600 bg-yellow-100 p-1 rounded-md" />
+//     ),
+//     name: "Find Jobs",
+//     description: "Discover developer opportunities.",
+//     more: (
+//       <div className="text-yellow-600 flex items-center">
+//         Learn more <PiArrowRight className="ml-1 text-sm" />
+//       </div>
+//     ),
 
-    image: "/assets/RunningDoodle.svg",
-  },
-];
+//     image: "/assets/RunningDoodle.svg",
+//   },
+// ];
 
 const HeroSection = () => {
   const ref = useRef(null);
 
-  const [activeTab, setActiveTab] = useState(tabs[0]);
+  // const [activeTab, setActiveTab] = useState(tabs[0]);
 
   const isSmallScreen = useMediaQuery({ maxWidth: 767 });
 
@@ -103,7 +103,8 @@ const HeroSection = () => {
             pt-6
             "
       >
-        Your Digital Identity, Reinvented{" "}
+        {/* Your Digital Identity, Reinvented{" "} */}
+        One Identity, Infinite Possibilities.
       </div>
 
       <p
@@ -116,7 +117,7 @@ const HeroSection = () => {
             "
       >
         Create Once, Identify Everywhere with{" "}
-        <span className="text-sky-500 font-bold">IdentiFi</span>
+        <span className="text-sky-500 font-bold">IdentifyMe</span>
       </p>
 
       <div className="flex gap-4 pt-6 items-center justify-center">
@@ -141,7 +142,7 @@ const HeroSection = () => {
           className="flex items-center justify-center mx-auto w-60 xl:w-80"
         />
       </div>
-      {isSmallScreen ? (
+      {/* {isSmallScreen ? (
         <div className="md:grid-cols-1 grid sm:grid-cols-2  place-content-center place-items-center mx-auto space-x-0  xl:space-x-4 items-center justify-between hover:cursor-pointer gap-4 w-4/5 xl:w-3/4 2xl:w-[55%]">
           {tabs.map((tab) => (
             <motion.div
@@ -239,7 +240,7 @@ const HeroSection = () => {
             </motion.div>
           ))}
         </div>
-      )}
+      )} */}
     </div>
   );
 };

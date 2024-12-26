@@ -30,7 +30,7 @@ export function Menu() {
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href={"/"} legacyBehavior passHref>
+          <Link href={"/verify-identity"} legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               {" "}
               Verify Identity{" "}
@@ -70,4 +70,3 @@ const ListItem = React.forwardRef<
 ListItem.displayName = "ListItem";
 
 export default ListItem;
-
